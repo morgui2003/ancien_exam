@@ -53,9 +53,7 @@ class User {
             User.compteur--
         };
         document.querySelector(".counter").textContent = `${User.compteur}/20 people are here`;
-
     }
-
 }
 
 export default User;
